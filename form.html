@@ -11,7 +11,7 @@
     <div class="wrapper">
         <header class="page-header">
             <nav>
-                 <a class="page-header__header-nav"> href="#">карта штата</a>
+                 <a class="page-header__header-nav"> href="#">карта штата</a><img src="img/krestik.jpg">
                  <a class="page-header__header-nav">href="#">информация</a>
                  <a class="page-header__header-nav">
                      href="#">фото и видео</a>
@@ -67,11 +67,6 @@
             <input name="mycolor" type="checkbox" value="park">Слайд-парк
             <input name="mycolor" type="checkbox" value="gora" checked>Гора-Колокол
             <input name="mycolor" type="checkbox" value="red" checked>Красные скалы
-        
-            <h2 class="reviews__header">ЧТО-ТО ПОШЛО НЕ ТАК!</h2>
-            <span class="reviews__descr">Проверьте поля, выделенные красным, скорее всего вы забыли их заполнить</span>
-            <a class="reviews__button" href="#">ok</a>
-
             <ul class="picture">
                 <li><img src=""></li>
                 <li><img src=""></li>
@@ -79,11 +74,17 @@
             </ul>
             <input type="submit" value="отправить отзыв">
         </form>
-        <h2 class="reviews__header">Ваш отзыв отправлен!</h2>
-        <span class="reviews__descr">Спасибо за ваше участие, ваш отзыв уже поступил к нам.
-В ближайшее время мы опубликуем его на сайте</span>
-        <a class="reviews__button" href="#">закрыть окно</a>
-        
+        <div class="popup">
+            <h2 class="popup__header">ЧТО-ТО ПОШЛО НЕ ТАК!</h2>
+            <span class="popup__descr">Проверьте поля, выделенные красным, скорее всего вы забыли их заполнить</span>
+            <a class="popup__button" href="#">ok</a>
+        </div>
+        <div class="popup">
+            <h2 class="popup__header">Ваш отзыв отправлен!</h2>
+            <span class="popup__descr">Спасибо за ваше участие, ваш отзыв уже поступил к нам.
+    В ближайшее время мы опубликуем его на сайте</span>
+            <a class="popup__button" href="#">закрыть окно</a>
+        </div>
         <footer class="page-footer">
             <h2 class="page-footer__header">#visitsedona</h2>
             <ul class="page-footer__list">
