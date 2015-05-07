@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="ru">
 
 <head>
   <meta charset="utf-8">
@@ -9,63 +9,83 @@
 
 <body>
     <div class="wrapper">
-        <nav>
-             <a href="#">карта штата</a>
-             <a href="#">информация</a>
-             <a href="#">фото и видео</a>
-             <a href="#">гостиницы</a>
-        </nav>
-        <img src="img/menu-strelka.png">
-        <img src="img/foto.jpg">
-        
-        <h1>блог шерифа</h1>
-        <p>седона удивительный город! горы здесь красного цвета, а местный шериф ведет блог и общается на форумах.</span>
-            
-        <hr>
-        <article>
-            <h2>внимание! сбежала моя домашняя анаконда</h2>
-            <p>жители седоны и гости города, будьте бдительны - сбежала моя домашняя змея. увидевшему срочно звонить 911 и бежать от нее подальше.</p>
-            <div>
-                <span>позавчера</span>
-                <span>происшествия</span>
+        <header class="page-header">
+            <nav>
+                 <a class="page-header__header-nav"  href="#">карта штата</a><img src="img/krestik.jpg">
+                 <a class="page-header__header-nav" href="#">информация</a>
+                 <a class="page-header__header-nav" href="#">фото и видео</a>
+                 <a class="page-header__header-nav"  href="#">гостиницы</a>
+            </nav>
+            <img src="img/menu-strelka.png">
+            <img src="img/foto.jpg">
+        </header>
+         <article class="blog">
+        <h1 class="blog__header">блог шерифа</h1>
+        <p class="blog__descr">седона удивительный город! горы здесь красного цвета, а местный шериф ведет блог и общается на форумах.</p>
+        </article>
+        <article class="blog">
+            <h2 class="blog__header">внимание! сбежала моя домашняя анаконда</h2>
+            <p class="blog__descr">жители седоны и гости города, будьте бдительны - сбежала моя домашняя змея. увидевшему срочно звонить 911 и бежать от нее подальше.</p>
+            <div class="blog__footer">
+                <span class="blog__date">позавчера</span>
+                <span class="blog__tag">происшествия</span>
             </div>
         </article>
-        <article>
-            <h2>принят антитабачный закон штата</h2>
-            <p>уважаемые туристы, пожалуйста не забывайте, что курение сигарет и сигар в общественных местах города седона категорически запрещено.</p>
+        <article class="blog">
+            <h2 class="blog__header">принят антитабачный закон штата</h2>
+            <p class="blog__descr">уважаемые туристы, пожалуйста не забывайте, что курение сигарет и сигар в общественных местах города седона категорически запрещено.</p>
+            <div class="blog__footer">
+                <span class="blog__date">2 дня назад</span>
+                <span class="blog__tag">законы</span>
+            </div>
         </article>
-        <article>
-            <h2>маньяк задержан, дает показания</h2>
-            <p>жители седоны могут спать спокойно. задержан маньяк эксгибиционист, державший в страхе весь город. пострадавшим обращаться в 911.</p>
+        <article class="blog">
+            <h2 class="blog__header">маньяк задержан, дает показания</h2>
+            <p class="blog__descr">жители седоны могут спать спокойно. задержан маньяк эксгибиционист, державший в страхе весь город. пострадавшим обращаться в 911.</p>
+            <div class="blog__footer">
+                <span class="blog__date">3 дня назад</span>
+                <span class="blog__tag">происшествия</span>
+            </div>
         </article>
-        <article>
-            <h2>водопад закрыт на реконструкцию</h2>
-            <p>всем кто планировал посещать водопад на этих выходных придется изменить планы, на нем ведутся ремонтные работы по улучшению подачи воды.</p>
+        <article class="blog">
+            <h2 class="blog__header">водопад закрыт на реконструкцию</h2>
+            <p class="blog__descr">всем кто планировал посещать водопад на этих выходных придется изменить планы, на нем ведутся ремонтные работы по улучшению подачи воды.</p>
+            <div class="blog__footer">
+                <span class="blog__date">неделю назад</span>
+                <span class="blog__tag">интересное</span>
+            </div>
         </article>
-        <article>
-            <h2>открылся новый стейкхаус "горный бык"</h2>
-            <p>лучшие стейки в аризоне! приемлемые цены и только самые лучшие продукты. заходите попробовать! действует акция: съешь два и получи третий!</p>
+        <article class="blog">
+            <h2 class="blog__header">открылся новый стейкхаус "горный бык"</h2>
+            <p class="blog__descr">лучшие стейки в аризоне! приемлемые цены и только самые лучшие продукты. заходите попробовать! действует акция: съешь два и получи третий!</p>
+            <div class="blog__footer">
+                <span class="blog__date">месяц назад</span>
+                <span class="blog__tag">еда</span>
+            </div>
         </article>
-        <article>
-            <h2>прогноз погоды на ближайшие выходные</h2>
-            <p>синоптики обещают, что будет ясно, безветрено и около 90 по фаренгейту. как в пустыне! проверим их слова уже через пару дней.</p>
+        <article class="blog">
+            <h2 class="blog__header">прогноз погоды на ближайшие выходные</h2>
+            <p class="blog__descr">синоптики обещают, что будет ясно, безветрено и около 90 по фаренгейту. как в пустыне! проверим их слова уже через пару дней.</p>
+            <div class="blog__footer">
+                <span class="blog__date">год назад</span>
+                <span class="blog__tag">погода</span>
+            </div>
         </article>
-        <ul>
+        <ul class="blog__paginator">
             <li>1</li>
             <li>2</li>
             <li>3</li>
             <li>4</li>
             <li>5</li>
         </ul>
-        <hr>
-        <footer>
-            <h2>#visitsedona</h2>
-            <ul>
-                <li><a href="#"><img src="img/twitter.jpg"></a></li>
-                <li><a href="#"><img src="img/Untitled-1.jpg"></a></li>
-                <li><a href="#"><img src="img/youtube.jpg"></a></li>
+        <footer class="page-footer">
+            <h2 class="page-footer__header">#visitsedona</h2>
+            <ul class="page-footer__list">
+                <li class="page-footer__icon"><a href="#"><img src="img/twitter.jpg"></a></li>
+                <li class="page-footer__icon"><a href="#"><img src="img/Untitled-1.jpg"></a></li>
+                <li class="page-footer__icon"><a href="#"><img src="img/youtube.jpg"></a></li>
             </ul>
-            <span>разработано</span>
+            <span class="page-footer__bottom">разработано</span>
             <img src="img/footer.jpg">
         </footer>
     </div>
